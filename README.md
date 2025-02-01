@@ -9,3 +9,7 @@
 资料链接: https://pan.baidu.com/s/1Le-7Kx7s0bjuZphqE99p0g 提取码: jj4b
 
 <font class="text-color-1" color="#f44336">**本项目遵循GPL3.0开源协议，任何使用者都必须将自己发布的代码开源<u></u>**</font>
+
+更新日志：
+
+2025/02/02  更新3D打印外壳文件，修正部分建模错误
