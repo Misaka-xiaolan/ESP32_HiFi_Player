@@ -57,7 +57,7 @@ static void Bar_State_Update_Callback(lv_timer_t *timer)
 
 static bool IRAM_ATTR lcd_off_timer_cb(gptimer_handle_t timer, const gptimer_alarm_event_data_t *edata, void *user_data)
 {
-//    st7789_lcd_backlight_set(false);
+    st7789_lcd_backlight_set(false);
     gptimer_set_raw_count(lcd_off_timer, 0);
     gptimer_stop(lcd_off_timer);
     return false;
