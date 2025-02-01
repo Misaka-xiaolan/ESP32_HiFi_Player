@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/components/micro-ecc/micro-ecc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/controller/lib_esp32" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/controller/lib_esp32c2/esp32c2-bt-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/controller/lib_esp32c3_family" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/controller/lib_esp32c5/esp32c5-bt-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/controller/lib_esp32c6/esp32c6-bt-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/controller/lib_esp32h2/esp32h2-bt-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/esp_ble_mesh/lib/lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/bt/host/nimble/nimble" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/cmock/CMock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/esp_coex/lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/esp_phy/lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/esp_wifi/lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/heap/tlsf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/json/cJSON" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/lwip/lwip" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/mbedtls/mbedtls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/mqtt/esp-mqtt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/openthread/lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/openthread/openthread" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/protobuf-c/protobuf-c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/spiffs/spiffs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Espressif/frameworks/esp-idf-v5.3.1/components/unity/unity" vcs="Git" />
+  </component>
+</project>
