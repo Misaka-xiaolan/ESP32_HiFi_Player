@@ -141,6 +141,7 @@ void Gui_Display_Task(void *fuck)
     xSemaphoreTake(MutexSemaphore, portMAX_DELAY);
     ui_init();
     Main_Menu_Init();
+    Info_Menu_Init();
     xSemaphoreGive(MutexSemaphore);
     while (1)
     {

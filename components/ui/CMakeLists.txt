@@ -5,6 +5,7 @@ SET(SOURCES screens/ui_Menu.c
         screens/ui_Settings.c
         screens/ui_Play.c
         screens/ui_List.c
+        screens/ui_Info.c
 )
 
 idf_component_register(

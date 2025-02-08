@@ -13,7 +13,7 @@
 //static lv_obj_t * ui_Label1;
 static lv_obj_t *music;
 static lv_obj_t *setting;
-static lv_obj_t *info;
+static lv_obj_t *info_btn;
 //
 //static lv_obj_t *front;
 //
@@ -57,13 +57,20 @@ void Setting_Btn_Event_Callback(lv_event_t *e)
     }
 }
 
+void Info_Btn_Event_Callback(lv_event_t *e)
+{
+    lv_group_remove_all_objs(group);
+    lv_obj_add_flag(main_menu, LV_OBJ_FLAG_HIDDEN);
+    Info_Menu_Load();
+}
+
 void Menu_Load(void)
 {
     lv_obj_clear_flag(main_menu, LV_OBJ_FLAG_HIDDEN);
     lv_label_set_text(title, "HiFi Player");
     lv_group_add_obj(group, music);
     lv_group_add_obj(group, setting);
-    lv_group_add_obj(group, info);
+    lv_group_add_obj(group, info_btn);
     display_num = 0;
 }
 
@@ -104,9 +111,10 @@ void Main_Menu_Init(void)
 //    lv_label_set_text(ui_Label1, "你好 こんにちは hello");
     music = lv_btn_create(main_screen);
     setting = lv_btn_create(main_screen);
-    info = lv_btn_create(main_screen);
+    info_btn = lv_btn_create(main_screen);
     lv_obj_add_event_cb(setting, Setting_Btn_Event_Callback, LV_EVENT_CLICKED, NULL);
     lv_obj_add_event_cb(music, Music_Btn_Event_Callback, LV_EVENT_CLICKED, NULL);
+    lv_obj_add_event_cb(info_btn, Info_Btn_Event_Callback, LV_EVENT_CLICKED, NULL);
     lv_obj_set_size(music, 70, 70);
     lv_obj_set_pos(music, 105 - 15, 95 - 75);
     lv_obj_set_style_radius(music, 40, 0);
@@ -115,17 +123,17 @@ void Main_Menu_Init(void)
     lv_obj_set_pos(setting, 28 - 15, 154 - 75);
     lv_obj_set_style_radius(setting, 40, 0);
     lv_obj_set_style_bg_color(setting, lv_color_hex(0xeeb54e), 0);
-    lv_obj_set_size(info, 50, 50);
-    lv_obj_set_pos(info, 205 - 15, 154 - 75);
-    lv_obj_set_style_radius(info, 40, 0);
-    lv_obj_set_style_bg_color(info, lv_color_hex(0xe0e4e3), 0);
+    lv_obj_set_size(info_btn, 50, 50);
+    lv_obj_set_pos(info_btn, 205 - 15, 154 - 75);
+    lv_obj_set_style_radius(info_btn, 40, 0);
+    lv_obj_set_style_bg_color(info_btn, lv_color_hex(0xe0e4e3), 0);
     lv_obj_set_parent(music, main_menu);
     lv_obj_set_parent(setting, main_menu);
-    lv_obj_set_parent(info, main_menu);
+    lv_obj_set_parent(info_btn, main_menu);
 
     music_btn_icon = lv_img_create(music);
     setting_btn_icon = lv_img_create(setting);
-    info_btn_icon = lv_img_create(info);
+    info_btn_icon = lv_img_create(info_btn);
     lv_img_set_src(music_btn_icon, LV_SYMBOL_AUDIO);
     lv_img_set_src(setting_btn_icon, LV_SYMBOL_SETTINGS);
     lv_img_set_src(info_btn_icon, LV_SYMBOL_ENVELOPE);
@@ -136,7 +144,7 @@ void Main_Menu_Init(void)
     lv_group_set_editing(group, false);
     lv_group_add_obj(group, music);
     lv_group_add_obj(group, setting);
-    lv_group_add_obj(group, info);
+    lv_group_add_obj(group, info_btn);
 //    lv_anim_start(&anim);
 }
 

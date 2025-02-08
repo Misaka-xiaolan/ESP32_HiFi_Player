@@ -26,6 +26,8 @@ extern void Ui_Update_Music_Infos(int32_t f_idx);
 extern void List_Menu_Init(void);
 extern void List_Menu_Load(void);
 extern void List_Add_Music(void);
+extern void Info_Menu_Init(void);
+extern void Info_Menu_Load(void);
 extern void Bluetooth_Search_Cplt_Callback(void);
 extern void Bluetooth_Connected_Callback(void);
 extern void lcd_off_timer_start(void);
@@ -38,6 +40,7 @@ extern lv_obj_t *main_menu;
 extern lv_obj_t *settings;
 extern lv_obj_t *play;
 extern lv_obj_t *list;
+extern lv_obj_t *info;
 extern gptimer_handle_t lcd_off_timer;
 
 

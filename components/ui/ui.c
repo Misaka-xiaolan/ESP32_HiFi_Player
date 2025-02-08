@@ -21,6 +21,7 @@ lv_obj_t *main_menu;
 lv_obj_t *settings;
 lv_obj_t *play;
 lv_obj_t *list;
+lv_obj_t *info;
 
 lv_obj_t *title;
 
