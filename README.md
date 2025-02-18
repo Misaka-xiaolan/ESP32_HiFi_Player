@@ -8,6 +8,8 @@
 
 资料链接: https://pan.baidu.com/s/1Le-7Kx7s0bjuZphqE99p0g 提取码: jj4b
 
+为防止二次售卖和伸手党，取消了硬件部分的开源。真正需要的请移步视频评论区寻找方法。
+
 <font class="text-color-1" color="#f44336">**本项目遵循GPL3.0开源协议，任何使用者都必须将自己发布的代码开源<u></u>**</font>
 
 更新日志：
