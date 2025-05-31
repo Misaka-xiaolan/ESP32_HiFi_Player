@@ -17,4 +17,12 @@
 2025/02/02  更新3D打印外壳文件，修正部分建模错误
 
 2025/02/09  在GUI代码中添加了信息页
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://www.star-history.com/embed?secret=c2tpbm1l#Misaka-xiaolan/ESP32_HiFi_Player&Date" frameBorder="0"></iframe>
+## Star History
+
+<a href="https://www.star-history.com/#Misaka-xiaolan/ESP32_HiFi_Player&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Misaka-xiaolan/ESP32_HiFi_Player&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Misaka-xiaolan/ESP32_HiFi_Player&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Misaka-xiaolan/ESP32_HiFi_Player&type=Date" />
+ </picture>
+</a>
